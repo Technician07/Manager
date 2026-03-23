@@ -1,8 +1,8 @@
 // FIREBASE INIT
 const firebaseConfig = {
-  apiKey: "YOUR_KEY",
-  authDomain: "YOUR_DOMAIN",
-  projectId: "YOUR_ID",
+  apiKey: "AIzaSyCp8BR3HCaVBf48-81AIW0HpiaVEfVdIIc",
+  authDomain: "to-do-b0243.firebaseapp.com",
+  projectId: "to-do-b0243",
 };
 
 firebase.initializeApp(firebaseConfig);
