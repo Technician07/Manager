@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🔥 Event Pro Dashboard</h1>
+
+<!-- ROUTINE -->
+<h2>📌 Today Routine</h2>
+<input id="todayInput" placeholder="Add task">
+<button onclick="addToday()">Add</button>
+<div id="todayList"></div>
+
+<h2>⏭ Tomorrow Routine</h2>
+<input id="tomorrowInput" placeholder="Add task">
+<button onclick="addTomorrow()">Add</button>
+<div id="tomorrowList"></div>
+
+<!-- DISCIPLINE -->
+<h2>📊 Discipline</h2>
+<div id="stats"></div>
+
+<div class="progress">
+  <div id="bar"></div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
